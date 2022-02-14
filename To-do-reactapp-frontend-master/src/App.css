@@ -1,0 +1,57 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+  
+.no-outline:focus {
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    float:left;
+}
+
+.btn-small{
+    float: right;
+    vertical-align: top;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    padding-left: 6px!important;
+    padding-right: 6px!important;
+}
+
+.form-check-input{
+    vertical-align: middle;
+}
+
+.display-6{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-fluid{
+    width: 95%!important;
+}
+
+.list-group-item{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.header{
+    margin-bottom: 3rem;
+}
+
+
